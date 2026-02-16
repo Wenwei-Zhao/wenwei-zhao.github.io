@@ -5,8 +5,6 @@
 
 title: Wenwei Zhao
 baseURL: 'https://example.com/' # Website URL
-googleAnalytics: ""
-
 
 ############################
 ## LANGUAGE
@@ -23,8 +21,7 @@ removePathAccents: true
 
 enableGitInfo: false
 summaryLength: 30
-pagination:
-  pagerSize: 10
+paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
