@@ -17,7 +17,7 @@ date: "2024-05-19T00:00:00Z"
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-05'
+publishDate: "2024-05-19T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -50,7 +50,7 @@ url_pdf: ''
 #url_project: ''
 #url_slides: ''
 #url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-u#rl_video: 'https://youtube.com'
+#url_video: 'https://youtube.com'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
