@@ -5,6 +5,8 @@
 
 title: Wenwei Zhao
 baseURL: 'https://example.com/' # Website URL
+googleAnalytics: ""
+
 
 ############################
 ## LANGUAGE
