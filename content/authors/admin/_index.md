@@ -120,5 +120,5 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I am a Ph.D. student in the Department of Electrical Engineering, University of South Florida advised by Dr. Zhuo Lu in the CSA lab. My primary research focuses on the security aspects of Federated Learning (FL) in wireless communications. My work delves into developing robust security mechanisms to safeguard FL against various adversarial attacks, ensuring the integrity and confidentiality of the decentralized learning process. Besides, I have explored new security vulnerabilities in secure spectrum sensing methodologies and developed innovative spectrum management and defense strategies.
+I am a Ph.D. student in the Department of Electrical Engineering at the University of South Florida, advised by Dr. Zhuo Lu in the CSA Lab. My research interests include secure and trustworthy machine learning, distributed systems, and wireless security.
 {style="text-align: justify;"}
