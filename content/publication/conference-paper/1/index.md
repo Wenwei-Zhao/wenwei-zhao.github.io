@@ -20,7 +20,7 @@ doi: ''
 publishDate: '2024-05'
 
 # Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).zhao2024detecting
 # Enter a publication type from the CSL standard.
 publication_types: ['paper-conference']
 
