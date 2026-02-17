@@ -205,6 +205,7 @@ sections:
   - block: collection
     content:
       title: Recent Publications
+      count: 20
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
