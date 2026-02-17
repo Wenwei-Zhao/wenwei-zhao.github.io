@@ -1,12 +1,14 @@
 ---
-title: 'FAUN: Federated Adversarial Unlearning for Poisoning Recovery'
+title: 'Malicious Forgetting: Backdoor Injection in Active Federated Unlearning and Countermeasure Design'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Wenwei Zhao
+  - Yuanzhe Peng
   - Xiaowen Li
+  - Jie Xu
   - Yao Liu
   - Zhuo Lu
 
@@ -16,7 +18,7 @@ authors:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: 2026-01-01
+date: 2026-01-02
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -28,11 +30,12 @@ doi: ''
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: ICASSP 2026
-publication_short: ICASSP 2026
+publication: Infocom 2026
+publication_short: Infocom 2026
 
 abstract: |
-  Federated learning (FL) is vulnerable to poisoning attacks, where malicious clients upload manipulated updates to degrade the performance of the global model. Although detection methods can identify and remove malicious clients, the model remains affected. Retraining from scratch is effective but costly, and existing unlearning methods remain unsatisfactory in both effectiveness and efficiency. We propose Federated Adversarial Unlearning (FAUN), a lightweight framework that retains only a short window of malicious clients' updates and employs adversarial optimization on a proxy dataset to derive updates that eliminate malicious directions. Applying these updates for a few unlearning rounds, followed by benign fine-tuning, enables fast removal of malicious effects and stable recovery. Experiments on three canonical datasets show that FAUN achieves recovery comparable to retraining while requiring far fewer rounds and reduces attack success rates to near zero, confirming FAUN successfully eliminates the contributions of unlearned clients.
+  Federated learning (FL) enables collaborative model training without sharing raw data, but also raises increasing demands for the right to be forgotten. To support data erasure, active federated unlearning (FU) allows clients to actively remove their data's influence from the model. We reveal a critical and overlooked threat: malicious clients can pose as privacy-concerned users requesting to unlearn some of their data, while secretly preparing backdoor attacks during training. We propose Fusion backdoor, a subnetwork-based attack that stealthily constructs a compact backdoor subnetwork from trigger-sensitive units within backdoor-critical layers during training, and rapidly fuses it during the limited rounds of unlearning. Fusion backdoor achieves up to 99\% backdoor success rate across diverse datasets and FU methods. We also develop a detection method that captures directional subspace deviations introduced by coordinated backdoor updates, achieving high attack detection accuracy.
+
 
 
 # Summary. An optional shortened abstract.
