@@ -6,7 +6,12 @@ title: 'Malicious Forgetting: Backdoor Injection in Active Federated Unlearning 
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Wenwei Zhao
-  - Yuanzhe Peng, Xiaowen Li, Jie Xu, Yao liu, Zhuo Lu
+  - Yuanzhe Peng
+  - Xiaowen Li
+  - Jie Xu
+  - Yao Liu
+  - Zhuo Lu
+
 
 # Author notes (optional)
 #author_notes:
