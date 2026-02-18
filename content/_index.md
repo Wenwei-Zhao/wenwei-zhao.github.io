@@ -247,7 +247,7 @@ sections:
         - IEEE Transactions on Cognitive Communications and Networking (TCCN)
         - IEEE Transactions on Machine Learning in Communications and Networking (TMLCN)
 
-        **Conference Reviewer**
+        **External reviewer**
         - IEEE INFOCOM 2025
     design:
       columns: '2'
