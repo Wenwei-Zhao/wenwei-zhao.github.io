@@ -233,6 +233,31 @@ sections:
 #      title: Popular Topics
 #    design:
 #      columns: '2'
+
+  - block: markdown
+    id: service
+    content:
+      title: Professional Service
+      text: |-
+        **Journal Reviewer**
+        - IEEE Transactions on Information Forensics and Security (TIFS)
+        - IEEE Transactions on Dependable and Secure Computing (TDSC)
+        - IEEE/ACM Transactions on Networking (T0N)
+        - ACM Transactions on Privacy and Security (TOPS)
+        - IEEE Transactions on Cognitive Communications and Networking (TCCN)
+        - IEEE Transactions on Machine Learning in Communications and Networking (TMLCN)
+
+        **Conference Reviewer**
+        - IEEE INFOCOM 2025
+
+        # **Technical Program Committee (TPC)**
+        # - IEEE INFOCOM Workshop on Federated Learning Security, 2025
+    design:
+      columns: '2'
+
+
+
+
   - block: contact
     id: contact
     content:
