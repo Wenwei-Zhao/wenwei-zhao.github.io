@@ -249,9 +249,6 @@ sections:
 
         **Conference Reviewer**
         - IEEE INFOCOM 2025
-
-        # **Technical Program Committee (TPC)**
-        # - IEEE INFOCOM Workshop on Federated Learning Security, 2025
     design:
       columns: '2'
 
