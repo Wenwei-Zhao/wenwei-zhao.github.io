@@ -1,23 +1,22 @@
 ---
-title: 'Detecting Adversarial Spectrum Attacks via Distance to Decision Boundary Statistics'
+title: 'Consistency-Preserving Logit Shaping for Robust Model Stealing Defense with Applications in Wireless Spectrum Security'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Wenwei Zhao
-  - Xiaowen Li, Shangqing Zhao, Jie Xu, Yao liu, Zhuo Lu
+  - Xiaowen Li, Wenwei Zhao, Yao liu, Zhuo Lu
 
 # Author notes (optional)
 #author_notes:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: "2024-05-19T00:00:00Z"
+date: "2026-06-30T00:00:00Z"
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-05'
+publishDate: '2026-06'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).zhao2024detecting
@@ -25,10 +24,10 @@ publishDate: '2024-05'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: Infocom 2024
-publication_short: Infocom 2024
+publication: Proceedings of the 2026 ACM Workshop on Wireless Security and Machine Learning
+publication_short: WiSec-WiseML 2026
 
-abstract: In this paper, we propose an efficient framework for detecting adversarial spectrum attacks. Our design leverages the concept of the distance to the decision boundary (DDB) observed at the fusion center and compares the training and testing DDB distributions to identify adversarial spectrum attacks. We create a computationally efficient way to compute the DDB for machine learning based spectrum sensing systems. 
+abstract: Model stealing (model extraction) threatens ML-as-a-service APIs by enabling adversaries to reconstruct proprietary models from queried probability outputs, undermining both intellectual property and privacy. We seek a defense that reduces information leakage without harming utility. We introduce Consistency-Preserving Logit Shaping (CPLS), a simple, margin-adaptive perturbation applied to logits that provably preserves the top-1 label while reducing mutual information in released soft labels. CPLS adds deterministic, input-keyed, class-orthogonal noise bounded by a fraction of the decision margin, yielding closed-form argmax invariance and resistance to expectation-over-transformation averaging. CPLS has a wide range of applications, and achieves up to 13.1% relative mutual information reduction with zero accuracy loss and zero flip rate, and degrades surrogate training on both MNIST and CIFAR-10 datasets under standard knowledge distillation protocols. We further evaluate CPLS on a wireless spectrum sensing dataset, demonstrating generalization to non-image domains. These results suggest CPLS offers a practical, theory-backed mechanism for curbing extraction while retaining model utility.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -43,14 +42,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: "https://ieeexplore.ieee.org/abstract/document/10621153"
+url_pdf: "https://dl.acm.org/doi/abs/10.1145/3811880.3815105"
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_poster: ''
 #url_project: ''
 #url_slides: ''
 #url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-u#rl_video: 'https://youtube.com'
+#url_video: 'https://youtube.com'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
