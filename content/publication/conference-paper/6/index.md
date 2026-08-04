@@ -10,7 +10,9 @@ authors:
 # Author notes (optional)
 #author_notes:
 #  - 'Equal contribution'
-#  - 'Equal contribution'
+#  - 'EqualSkip to content
+PDF
+ contribution'
 
 date: "2026-06-30T00:00:00Z"
 doi: ''
@@ -42,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: "https://dl.acm.org/doi/abs/10.1145/3811880.3815105"
+url_pdf: "https://dl.acm.org/doi/epdf/10.1145/3811880.3815105"
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_poster: ''
