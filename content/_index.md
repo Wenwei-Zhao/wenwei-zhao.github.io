@@ -242,7 +242,7 @@ sections:
         **Journal Reviewer**
         - IEEE Transactions on Information Forensics and Security (TIFS)
         - IEEE Transactions on Dependable and Secure Computing (TDSC)
-        - IEEE/ACM Transactions on Networking (T0N)
+        - IEEE/ACM Transactions on Networking (TON)
         - ACM Transactions on Privacy and Security (TOPS)
         - IEEE Transactions on Cognitive Communications and Networking (TCCN)
         - IEEE Transactions on Machine Learning in Communications and Networking (TMLCN)
