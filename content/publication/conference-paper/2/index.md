@@ -1,5 +1,5 @@
 ---
-title: 'FAUN: Federated Adversarial Unlearning for Poisoning Recovery'
+title: 'Adversarial Update-Based Federated Unlearning for Poisoned Model Recovery'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -20,7 +20,7 @@ date: "2026-05-03T00:00:00Z"
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2026-05'
+publishDate: '2026-5'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -28,8 +28,8 @@ publishDate: '2026-05'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
-publication_short: IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
+publication: IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2026
+publication_short: IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2026
 
 abstract: |
   Federated learning (FL) is vulnerable to poisoning attacks, where malicious clients upload manipulated updates to degrade the performance of the global model. Although detection methods can identify and remove malicious clients, the model remains affected. Retraining from scratch is effective but costly, and existing unlearning methods remain unsatisfactory in both effectiveness and efficiency. We propose Federated Adversarial Unlearning (FAUN), a lightweight framework that retains only a short window of malicious clients' updates and employs adversarial optimization on a proxy dataset to derive updates that eliminate malicious directions. Applying these updates for a few unlearning rounds, followed by benign fine-tuning, enables fast removal of malicious effects and stable recovery. Experiments on three canonical datasets show that FAUN achieves recovery comparable to retraining while requiring far fewer rounds and reduces attack success rates to near zero, confirming FAUN successfully eliminates the contributions of unlearned clients.
