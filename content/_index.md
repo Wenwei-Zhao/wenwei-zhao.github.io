@@ -263,14 +263,14 @@ sections:
 #      text: |-
 #        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: wenweizhao@usf.edu
+      email: ww.zhao45@gmail.com
       phone: (+1)352-870-5256
 #      appointment_url: 'https://calendly.com'
       address:
-        street: 4202 E Fowler Ave
-        city: Tampa
-        region: FL
-        postcode: '33620'
+        street: 355 Main St
+        city: Cambridge
+        region: MA
+        postcode: '02142'
         country: United States
         country_code: US
 #      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
@@ -279,8 +279,8 @@ sections:
 #        - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '28.0588217'
-        longitude: '-82.4133424'  
+        latitude: '42.3627562'
+        longitude: '-71.0871146' 
 #      contact_links:
 #        - icon: twitter
 #          icon_pack: fab
