@@ -18,11 +18,11 @@ authors:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: 2026-01-02
+date: "2026-05-30T00:00:00Z"
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-#publishDate: '2025-12'
+publishDate: '2026-5'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -30,8 +30,8 @@ doi: ''
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: IEEE Conference on Computer Communications (INFOCOM)
-publication_short: IEEE Conference on Computer Communications (INFOCOM)
+publication: IEEE Conference on Computer Communications (INFOCOM) 2026
+publication_short: IEEE Conference on Computer Communications (INFOCOM) 2026
 
 abstract: |
   Federated learning (FL) enables collaborative model training without sharing raw data, but also raises increasing demands for the right to be forgotten. To support data erasure, active federated unlearning (FU) allows clients to actively remove their data's influence from the model. We reveal a critical and overlooked threat: malicious clients can pose as privacy-concerned users requesting to unlearn some of their data, while secretly preparing backdoor attacks during training. We propose Fusion backdoor, a subnetwork-based attack that stealthily constructs a compact backdoor subnetwork from trigger-sensitive units within backdoor-critical layers during training, and rapidly fuses it during the limited rounds of unlearning. Fusion backdoor achieves up to 99\% backdoor success rate across diverse datasets and FU methods. We also develop a detection method that captures directional subspace deviations introduced by coordinated backdoor updates, achieving high attack detection accuracy.
@@ -51,7 +51,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/11571403'
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_poster: ''
