@@ -120,5 +120,5 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I am a Ph.D. student in the Department of Electrical Engineering at the University of South Florida, advised by Dr. Zhuo Lu in the CSA Lab. My research interests include secure and trustworthy machine learning, distributed systems, and wireless security.
+Dr. Wenwei Zhao is a software engineer on Google’s Envoy AI Foundation team. She received her Ph.D. degree under Dr. Zhuo Lu at University of South Florida in 2026. Wenwei Zhao's research interests include secure and trustworthy machine learning, distributed systems, and network security.
 {style="text-align: justify;"}
