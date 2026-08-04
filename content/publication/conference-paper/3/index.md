@@ -58,7 +58,7 @@ url_pdf: 'https://ieeexplore.ieee.org/abstract/document/11571403'
 #url_project: ''
 #url_slides: ''
 #url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-u#rl_video: 'https://youtube.com'
+#url_video: 'https://youtube.com'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
