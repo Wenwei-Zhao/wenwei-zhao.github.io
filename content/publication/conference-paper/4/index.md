@@ -16,7 +16,7 @@ authors:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: 2026-01-01
+date: 2026-03-014
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -48,14 +48,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://ojs.aaai.org/index.php/AAAI/article/view/40206'
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_poster: ''
 #url_project: ''
 #url_slides: ''
 #url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-u#rl_video: 'https://youtube.com'
+#url_video: 'https://youtube.com'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
