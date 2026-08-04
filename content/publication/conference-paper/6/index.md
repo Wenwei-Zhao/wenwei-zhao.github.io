@@ -11,8 +11,6 @@ authors:
 #author_notes:
 #  - 'Equal contribution'
 #  - 'EqualSkip to content
-PDF
- contribution'
 
 date: "2026-06-30T00:00:00Z"
 doi: ''
