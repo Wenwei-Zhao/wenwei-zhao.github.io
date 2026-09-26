@@ -43,7 +43,7 @@ education:
     - course: MS in Electrical and Computer Engineering
       institution: Univerisity of Florida
       year: 2021
-    - course: BSc in Optoelectronics Information Science and Engineering
+    - course: BS in Optoelectronics Information Science and Engineering
       institution: Hefei University of Technology
       year: 2019
 
