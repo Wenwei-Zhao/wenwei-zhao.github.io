@@ -32,8 +32,8 @@ doi: ''
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: IEEE Symposium on Security and Privacy (S&P) 2026
-publication_short: IEEE Symposium on Security and Privacy (S&P) 2026
+publication: IEEE Symposium on Security and Privacy (S&P) 2027
+publication_short: IEEE Symposium on Security and Privacy (S&P) 2027
 
 #abstract: |
 
