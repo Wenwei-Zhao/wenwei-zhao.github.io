@@ -1,14 +1,18 @@
 ---
-title: 'Equilibrium-Driven Vertical Federated Learning with Selective Privacy Protection'
+title: 'ScrambleMark: Zero-Query Watermark-Agnostic Black-Box Evasion of Modern Speech Watermarking'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Yuanzhe Peng
+  - Binhao Ma
+  - Weikang Ding
+  - Hanqing Guo
   - Wenwei Zhao
+  - Xiaowen Li
+  - Leah Ding
   - Zhuo Lu
-  - Jie Xu
+  - Rui Duan
 
 
 # Author notes (optional)
@@ -16,11 +20,11 @@ authors:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: "2026-03-14T00:00:00Z"
+date: "2026-09-14T00:00:00Z"
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2026-03'
+publishDate: '2026-09'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -28,11 +32,11 @@ publishDate: '2026-03'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: AAAI Conference on Artificial Intelligence (AAAI) 2026
-publication_short: AAAI Conference on Artificial Intelligence (AAAI) 2026
+publication: IEEE Symposium on Security and Privacy (S&P) 2026
+publication_short: IEEE Symposium on Security and Privacy (S&P) 2026
 
-abstract: |
-  Vertical Federated Learning (VFL) enables multiple clients with feature-partitioned data to collaboratively train models while preserving privacy by transmitting embeddings instead of raw data. However, such embeddings can still expose sensitive attributes (e.g., gender or race) unrelated to the target task, making them vulnerable to attribute inference attacks. Most existing privacy strategies may provide extra protection, but at the cost of reduced accuracy and excessive privacy budget. In this paper, we propose a novel equilibrium-driven VFL framework with selective privacy protection for sensitive attributes that are difficult to isolate from embeddings, thereby enhancing local privacy with minor accuracy compromise. We introduce two key innovations: (1) a NashCoder, which incorporates a surrogate head to jointly optimize accuracy and privacy; and (2) an adaptive decomposition strategy based on Shapley values, which dynamically decomposes the global objective for distributed optimization from an equilibrium perspective. We theoretically analyze our framework and empirically evaluate it on three public datasets against five baselines, demonstrating significant improvements in the accuracy-privacy trade-off under various privacy settings. Extensive experimental results support our theoretical analysis.
+#abstract: |
+
 
 
 # Summary. An optional shortened abstract.
@@ -41,14 +45,14 @@ abstract: |
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+#featured: true
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://ojs.aaai.org/index.php/AAAI/article/view/40206'
+#url_pdf: 'https://ojs.aaai.org/index.php/AAAI/article/view/40206'
 #url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 #url_poster: ''
